@@ -22,7 +22,6 @@
   list-style: none;
   font-size: 1.4rem;
   transition: all 0.3s;
-  padding-right: 10rem;
 }
 
 .nav-link:link,
@@ -48,4 +47,37 @@
 .nav-link.nav-cta:active {
   background-color: #12b886;
   color: #fff;
+}
+
+.background-img {
+  height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.6)),
+    url(/img/IMG_0803.jpg);
+  background-size: cover;
+}
+/* ************************************** */
+/* HERO SECTION
+/* ************************************** */
+
+.section-hero {
+}
+
+.text-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.hero-heading {
+  font-size: 6.8rem;
+  font-weight: 700;
+  color: #e6fcf5;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #e6fcf5;
+  font-weight: 400;
 }
