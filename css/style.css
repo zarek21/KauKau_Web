@@ -51,7 +51,7 @@
 
 .background-img {
   height: 100vh;
-  background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.8)),
     url(/img/IMG_0803.jpg);
   background-size: cover;
 }
@@ -62,22 +62,28 @@
 .section-hero {
 }
 
-.text-box {
+.heading-box {
+  margin-top: 9.6rem;
+}
+
+.heading-hero {
+  font-size: 6.4rem;
+  color: #e6fcf5;
+}
+
+.hero-box {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 3.2rem;
 }
 
-.hero-heading {
-  font-size: 6.8rem;
-  font-weight: 700;
-  color: #e6fcf5;
+.hero-img {
+  width: 100%;
 }
 
-.hero-description {
+.description-hero {
   font-size: 1.8rem;
-  line-height: 1.6;
+  max-width: 60ch;
   color: #e6fcf5;
-  font-weight: 400;
 }

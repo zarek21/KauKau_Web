@@ -21,6 +21,19 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid--2-col {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35rem;
+}
+
+.padding-top-bg {
+  padding-top: 9.6rem;
+}
+
 .btn {
   border-radius: 0.5rem;
   padding: 1rem 2rem;
